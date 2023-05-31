@@ -1,0 +1,44 @@
+.main-card{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    width: 29%;
+    padding: 0 10px;
+    margin-right: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+    .card {
+      width: 120%;
+      display: block;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding:16px;
+    }
+
+    .card img{
+      width: 80%;
+    }
+  }
+
+ 
+
+.card img{
+    width:100%;
+}
+
+.card p{
+    color: white;
+}

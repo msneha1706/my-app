@@ -1,0 +1,22 @@
+.container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://thumbs.dreamstime.com/b/beautiful-girl-studio-high-quality-photos-advertising-best-you-more-photos-i-have-portfolio-girl-105958626.jpg");
+    /*background-image: url('https://thumbs.dreamstime.com/b/beautiful-girl-studio-high-quality-photos-advertising-best-you-more-photos-i-have-portfolio-girl-105958626.jpg');  Set the background image */
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    opacity: 0.8; 
+  }
+  
+  h1 {
+    color: white; 
+    font-size: 32px; 
+  }
+  
+  p {
+    color: white; 
+    font-size: 16px; 
+  }
