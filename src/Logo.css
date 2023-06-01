@@ -1,0 +1,58 @@
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImg{
+    display: none;
+    background-color: white;
+}
+
+
+.logoName h1{
+    font-size: 30px;
+}
+
+
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+}
+
+a:link { 
+    text-decoration: none;
+}
+  
+a:hover { 
+    text-decoration: underline;
+}
+    
+a:active { 
+    color: aqua;
+}
+
+
+@media screen and (max-width: 805px) {
+
+    .logoName{
+        flex: 1;
+    }
+    .logoLink{
+        flex: 2;
+        visibility: hidden;
+    }
+
+    .logoImg{
+        display: block !important;
+    }
+}

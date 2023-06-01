@@ -4,10 +4,12 @@ import './App.css';
 import Navbar from './Navbar';
 import Contact from './Contact'
 import Body from './Body';
+import Logo from './Logo'
 
 function App() {
   return (
     <div className="App" style={{backgroundColor:"black"}}>
+      <Logo/>
       <Body/>
       <Navbar/>
       <Card/>
